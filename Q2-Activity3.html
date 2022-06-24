@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>inline vs block</title>
+<style>
+body{
+text-align: center;
+}
+
+table{
+width: 100%;
+}
+
+table, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+td{
+text-align: left;
+}
+
+th{
+background-color: red;
+color: white;
+}
+
+</style>
+</head>
+<body>
+<table>
+<caption style="font-family: verdana;"><h2>HTML INLINE VS. BLOCK ELEMENTS</h2></caption>
+<tr>
+<th>INLINE ELEMENTS</th>
+<th>BLOCK ELEMENTS</th>
+</tr>
+<tr>
+<td><p>The following span is an <span style="background-color: lime; color: white;">inline element</span>; its background has been colored both the beginning and end of the inline element's influence.</p></td>
+<td>
+<p>the following paragraph is a</p>
+<div><p style="background-color: blue; color: white;">block-level element;</p></div>
+<p>its background has been colored to display both the beginning and end of the block-level element's influence.</p>
+</td>
+</tr>
+</table>
+</body>
+</html>

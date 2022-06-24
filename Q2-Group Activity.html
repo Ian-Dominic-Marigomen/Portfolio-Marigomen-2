@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Form </title>
+</head>
+
+<body style="background-color:rgb(0, 146, 190);" font-family: comic_sans;">
+
+<heading style="background-color: rgb(192, 31, 57);"> <h1 style="color: black;"> Favorite Subject </h1>
+</heading>
+<hr>
+<br> <br>  
+<body> 
+<form> 
+  <label for="name">Full Name (First, Middle, Last):</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="dob">Date of Birth:</label><br>
+  <input type="text" id="dob" name="dob"><br><br>
+  <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age"><br><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="contact information">Contact Information (Email or Contact number):</label><br>
+  <input type="text" id="contact information" name="contact information">
+</form> 
+<p>Sex:</p>
+<form> 
+  <input type="radio" id="Male" name="Male">
+  <label for="Male">Male</label><br> 
+  <input type="radio" id="Female" name="Female">
+  <label for="Female">Female</label><br> 
+  <label for="Other">Other:<label><br>
+  <input type="text" id="Other" name="Other">
+<hr>
+<p>What are your favorite subjects?</p>
+<form>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">ESP</label><br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Math B</label><br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Social Studies</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">ICT</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Integrated Science</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Enhanced Science</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">MAPEH</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Math A</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Filipino</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">English</label> <br>
+ <input type="checkbox" id="question" name="question">
+ <label for="question">Research</label> <br>
+</form>
+<hr>
+<p> What made you choose these subjects?</p>
+<form action="/action_page.php">
+ <textarea name="write here" rows="7" cols="40"></textarea><br>
+</form>
+<hr>
+<hr>
+<p> How do these subjects help you in your daily life? </p>
+<form>
+ <textarea name="write here" rows="7" cols="40"></textarea><br>
+</form> <br>
+<p><strong> Thank you for filling up our form</strong></p>
+<hr>
+<input type="button" onclick="alert('Woah you clicked it, cool.')" value="Click for an easter egg!">
+<input type="Submit" value="Submit the answers">
+</body>
+</html>
